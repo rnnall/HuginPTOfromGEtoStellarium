@@ -2,7 +2,7 @@
 
 Inspired by the following YouTube Video [Using Google Earth terrain in Stellarium](https://www.youtube.com/watch?v=5TrRE5wUeAk). Is there an easir way to do this. 
 
-*Goal:* Write a script preferirble in `Python` to take KML file and convert it to Hugin Poject file. Automate image download based on KML file output. 
+**Goal:** Write a script preferirble in `Python` to take KML file and convert it to Hugin Poject file. Automate image download based on KML file output. 
 
 # Intorduciton 
 
