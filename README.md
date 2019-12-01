@@ -1,5 +1,4 @@
-# HuginPTOfromGEtoStellarium
-Hugin Project File from GE to Stellarium Landscape
+# Hugin Poject file from GE KML to Stellarium Landscape 
 
 Inspired by the following video [Using Google Earth terrain in Stellarium](https://www.youtube.com/watch?v=5TrRE5wUeAk). Is there an easir way to do this. *Goal* write a script preferirble in `Python`.
 
