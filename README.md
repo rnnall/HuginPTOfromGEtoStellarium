@@ -43,7 +43,10 @@ i w4800 h2987 f0 v60 Ra0 Rb0 Rc0 Rd0 Re0 Eev0 Er1 Eb1 r0 p-90 y0 TrX0 TrY0 TrZ0 
 i w4800 h2987 f0 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev0 Er1 Eb1 r0 p-65 y0 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"25-0.jpg"
 ```
 
+TODO: Fix Image Size with [Google Earth Studio](https://www.google.com/earth/studio) 
+
 TODO: Script to calculate `yaw` and `pitch` look at [Hugin .pto File Parser](https://github.com/smidm/huginpto-py)
+
 TODO: Script gathering Google Images. Possible Google Earth Engine API? Or Google Street View API's?? Researching...
 
 
