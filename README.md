@@ -30,9 +30,12 @@ Download [example.pto](example.pto) to saved photo directory. That should be it.
 
 These numbers might be different, see example below. Now assuming that the `0-0.jpg to 150-324.jpg` do not change you can use the same pto file and the `pitch` and `yaw` should line up the photos. 
 
-*Note:* When moving Hugin's `.pto` file it want's to relink if the photos are not already in the  diretory.  
+*Note:* When moving Hugin's `.pto` file it want's to relink if the photos are not already in the diretory.  
+
 
 *Example .pto file:*
+
+![Pitch & Yaw](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/images/pitchyaw.gif)
 
 ```
 # image lines
