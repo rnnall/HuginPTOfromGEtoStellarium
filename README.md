@@ -20,7 +20,7 @@ You will need the following software downlaoded installed or data pulled from. A
 
 # Hugin's Project file 
 
-The Hugin's project file can be opned with a text editor such as `Notepad`. To change the `Pitch` and `Yaw` as recomended in the video look for `p-90 y0` so this could be scripted to do the calculation based on output from [Make Stellarium panoramas from Google Earth](https://homepage.univie.ac.at/Georg.Zotti/php/panoCam.php) I do not believe this is necssary as if KML outputs the same each time then all you need is the project file [example.pto](example.pto) file. Just make sure your image capturs match the filenames in the `.pto` file. 
+The Hugin's project file can be opned with a text editor such as `Notepad`. To change the `Pitch` and `Yaw` as recomended in the video look for `p-90 y0` so this could be scripted to do the calculation based on output from [Make Stellarium panoramas from Google Earth](https://homepage.univie.ac.at/Georg.Zotti/php/panoCam.php) I do not believe this is necssary as if KML outputs the same each time then all you need is the project file [example.pto](example.pto) file. Just make sure your image capturs match the filenames in the [example.pto](example.pto) file. 
 
 ## Example .pto file 
 
@@ -30,7 +30,7 @@ Download [example.pto](example.pto) to saved photo directory. That should be it.
 
 These numbers might be different, see example below. Now assuming that the `0-0.jpg to 150-324.jpg` do not change you can use the same pto file and the `pitch` and `yaw` should line up the photos. 
 
-*Note:* When moving Hugin's `.pto` file it want's to relink if the photos are already not in the  diretory.  
+*Note:* When moving Hugin's `.pto` file it want's to relink if the photos are not already in the  diretory.  
 
 *Example .pto file:*
 
