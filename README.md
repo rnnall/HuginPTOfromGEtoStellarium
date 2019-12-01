@@ -1,10 +1,16 @@
-# Hugin Poject file from GE KML to Stellarium Landscape 
+# Hugin Poject file from Google Earth KML to Stellarium Landscape 
 
-Inspired by the following video [Using Google Earth terrain in Stellarium](https://www.youtube.com/watch?v=5TrRE5wUeAk). Is there an easir way to do this. *Goal* write a script preferirble in `Python`.
+Inspired by the following video [Using Google Earth terrain in Stellarium](https://www.youtube.com/watch?v=5TrRE5wUeAk). Is there an easir way to do this. 
+
+*Goal:* Write a script preferirble in `Python` to take KML file and convert it to Hugin Poject file. 
+
+# Intorduciton 
+
+By no means am I a programer or an expert with these tools. Just made some gernal observations in my exploration how to make this easier and was intrested in creating panoramic images withg Google Earth, just happend to find this video. 
 
 ## Getting Started
 
-Need the following software downlaoded installed or data pulled from. Assuming know how to do this. 
+You will need the following software downlaoded installed or data pulled from. Assuming know how to do this. 
 
 * [Hugin](http://hugin.sourceforge.net/)
 * [Stellarium](https://stellarium.org/)
@@ -12,16 +18,19 @@ Need the following software downlaoded installed or data pulled from. Assuming k
 * [Make Stellarium panoramas from Google Earth](https://homepage.univie.ac.at/Georg.Zotti/php/panoCam.php)
 
 
-# Intorduciton 
-
-By no means am I a programer or an expert with these tools. Just made some gernal observations in my exploration how to make this easier. 
-
 # Hugin's Project file 
 
-The Hugin's project file can be opned with a text editor such as `Notepad`. To change the `Pitch` and `Yaw` as recomended in the video look for `p-90 y0` so this could be scripted to do the calculation based on [Make Stellarium panoramas from Google Earth](https://homepage.univie.ac.at/Georg.Zotti/php/panoCam.php) recomendations. 
+The Hugin's project file can be opned with a text editor such as `Notepad`. To change the `Pitch` and `Yaw` as recomended in the video look for `p-90 y0` so this could be scripted to do the calculation based on output from [Make Stellarium panoramas from Google Earth](https://homepage.univie.ac.at/Georg.Zotti/php/panoCam.php) I do not believe this is necssary as if this outputs the same locaction settings each time then all you need is the project file. Just make sure your image capturs match the filenames in the pto file. 
 
+## Example .pto file 
 
-These numbers might be different, see example below. Now assuming that the `0-0.jpg to 150-324.jpg` do not change you can use the same pto file and this should line up the photos. Notice when moving Hugin's `.pto` file it want's to relink the photos in a different diretory. Might be a Hugin command to fix this. 
+Download `example.pto` to saved photo directory. 
+
+## Editing .pto File 
+
+These numbers might be different, see example below. Now assuming that the `0-0.jpg to 150-324.jpg` do not change you can use the same pto file and the `pitch` and `yaw` should line up the photos. 
+
+*Note:* When moving Hugin's `.pto` file it want's to relink if the photos are already not in the  diretory.  
 
 *Example Image:*
 
@@ -35,6 +44,7 @@ i w4800 h2987 f0 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev0 Er1 Eb1 r0 p-65 y0 TrX0 TrY0 
 ```
 
 TODO: Script to calculate `yaw` and `pitch` look at [Hugin .pto File Parser](https://github.com/smidm/huginpto-py)
+TODO: Script gathering google images. Possible Google Earth Engine? 
 
 
 ## Authors
