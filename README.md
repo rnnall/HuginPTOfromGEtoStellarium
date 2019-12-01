@@ -49,7 +49,7 @@ TODO: Script to calculate `yaw` and `pitch` look at [Hugin .pto File Parser](htt
 
 TODO: Script gathering Google Images. Possible Google Earth Engine API? Or Google Street View API's?? Researching...
 
-![Google Earth Studio](/images/GSE.gif =250x250)
+![Google Earth Studio](/images/GSE.gif)
 
 ## Authors
 
