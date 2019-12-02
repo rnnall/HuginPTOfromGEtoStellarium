@@ -50,7 +50,7 @@ i w4800 h2987 f0 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev0 Er1 Eb1 r0 p-65 y0 TrX0 TrY0 
 ```
 ## Example Pano Created
 
-This was created with flat blue sky files. Not the best example, but it does create pano image. All the files are named and match pano file. 
+This was created with flat blue sky files. Not the best example, but it does create pano image. All the files are named and match Hugin Project file. 
 
 ![Example JPG](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/example/example.jpg)
 
