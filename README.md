@@ -26,6 +26,10 @@ The Hugin's project file can be opned with a text editor such as `Notepad`. To c
 
 Download [example.pto](example.pto) to saved photo directory. That should be it....
 
+This was created with flat blue sky files. Not the best example, but it does create pano image. All the files are named and match pano file. 
+
+![Example JPG](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/example/example.jpg)
+
 ## Editing .pto File 
 
 These numbers might be different, see example below. Now assuming that the `0-0.jpg to 150-324.jpg` do not change you can use the same pto file and the `pitch` and `yaw` should line up the photos. 
