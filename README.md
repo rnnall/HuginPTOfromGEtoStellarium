@@ -26,9 +26,6 @@ The Hugin's project file can be opned with a text editor such as `Notepad`. To c
 
 Download [example.pto](example.pto) to saved photo directory. That should be it....
 
-This was created with flat blue sky files. Not the best example, but it does create pano image. All the files are named and match pano file. 
-
-![Example JPG](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/example/example.jpg)
 
 ## Editing .pto File 
 
@@ -51,6 +48,12 @@ i w4800 h2987 f0 v60 Ra0 Rb0 Rc0 Rd0 Re0 Eev0 Er1 Eb1 r0 p-90 y0 TrX0 TrY0 TrZ0 
 #-hugin  cropFactor=1
 i w4800 h2987 f0 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev0 Er1 Eb1 r0 p-65 y0 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"25-0.jpg"
 ```
+## Example Pano Created
+
+This was created with flat blue sky files. Not the best example, but it does create pano image. All the files are named and match pano file. 
+
+![Example JPG](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/example/example.jpg)
+
 ## TODO's
 
 TODO: Script to calculate `yaw` and `pitch` look at [Hugin .pto File Parser](https://github.com/smidm/huginpto-py)
