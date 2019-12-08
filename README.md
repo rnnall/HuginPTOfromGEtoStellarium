@@ -64,6 +64,8 @@ TODO: Script gathering Google Images. Possible Google Earth Engine API? Or Googl
 
 ### Python Scripts
 
+TODO: Clean up scripts
+
 * `mapl.py` - Creates mapping list of the image files based on Google Studio extracted images `mapl.txt`
 * `mlist.py` -  Joins the master image names `master.txt` with `master.txt` into a mapping list to be used with `rename_files.py` to convert the names of the files from the Google Earth Studio output zip
 
@@ -71,7 +73,9 @@ TODO: Fix Image Size with [GES](https://www.google.com/earth/studio)
 
 ![Google Earth Studio](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/images/GES.gif)
 
-TODO: Explore GES `.esp` file to edit and transfer Keyframes
+TODO: Explore translation of `.kml` to GES `.esp` file to edit and transfer Keyframes.
+
+**Sample Code below:**
 
 ```html
 {"modelVersion":16,"settings":{"name":"Location","frameRate":30,"dimensions":{"width":3840,"height":2160},"duration":450,"timeFormat":"frames"},
