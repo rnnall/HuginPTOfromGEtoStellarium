@@ -2,7 +2,7 @@ import os, sys
 
 # Joins the master image names 'mapl.txt' with 'master.txt' into a mapping list to be used with 'rename_files.py' to convert the names of the files from the Google Earth Studio output zip
 
-os.chdir("C:/Users/nallr/Videos/00_PROJECTS/05_R&D/GE_PanoViewer/GEEtoHugintoStellarium/python/images/test")
+os.chdir("mydir")
 
 f1_in = open("mapl.txt")
 f2_in = open("master.txt")

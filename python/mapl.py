@@ -2,7 +2,7 @@ import os, sys, glob
 
 # Creates mapping list of the image files based on Google studio extracted images 'mapl.txt'
 
-os.chdir("C:/Users/nallr/Videos/00_PROJECTS/05_R&D/GE_PanoViewer/GEEtoHugintoStellarium/python/images/test") # Change to source dir
+os.chdir("mydir") # Change to source dir
 
 mapl = open("mapl.txt","w")
 
