@@ -60,17 +60,24 @@ TODO: Script to calculate `yaw` and `pitch` look at [Hugin .pto File Parser](htt
 
 TODO: Script gathering Google Images. Possible Google Earth Engine API? Or Google Street View API's?? Researching...
 
-## Google Earth Studio
+## Google Earth Studio (GES)
 
 ### Python Scripts
 
-* `mapl.py` - Creates mapping list of the image files based on Google studio extracted images 'mapl.txt'
-* `mlist.py` -  Joins the master image names 'master.txt' with 'master.txt' into a mapping list to be used with 'rename_files.py' to convert the names of the files from the Google Earth Studio output zip
+* `mapl.py` - Creates mapping list of the image files based on Google Studio extracted images `mapl.txt`
+* `mlist.py` -  Joins the master image names `master.txt` with `master.txt` into a mapping list to be used with `rename_files.py` to convert the names of the files from the Google Earth Studio output zip
 
-TODO: Fix Image Size with [Google Earth Studio](https://www.google.com/earth/studio)
+TODO: Fix Image Size with [GES](https://www.google.com/earth/studio)
 
 ![Google Earth Studio](https://github.com/rnnall/HuginPTOfromGEtoStellarium/blob/master/images/GES.gif)
 
+TODO: Explore GES `.esp` file to edit and transfer Keyframes
+
+```html
+{"modelVersion":16,"settings":{"name":"Location","frameRate":30,"dimensions":{"width":3840,"height":2160},"duration":450,"timeFormat":"frames"},
+....
+
+```
 ## Authors
 
 * **rnull** - *Initial work* - [rnnall](https://github.com/rnnall)
